@@ -22,10 +22,8 @@ public class JavaRush_task1509 {
             }
             System.out.println(characters);
 
-
         }catch (IOException e){
-            System.out.println("Something went wrong : ");
-            e.printStackTrace();
+            System.out.println("Something went wrong : " + e);
         }
     }
 }
